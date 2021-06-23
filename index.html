@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Viagens - Projeto</title>
+    <script src=" https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p>Travel </p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pacotes">Pacotes</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul>
+        </nav>
+        <div id="home" class="header-content">
+            <div class="card-content">
+
+                <h1>Discovery World</h1>
+            </div>
+            <p>Conheça novos paises, tenha novas experiência!. </p>
+            <button>Saiba mais</button>
+    </header>
+    </div>
+
+    <section id="pacotes" class="pacotes">
+        <h1 class="pacotes-title">Conheça nossos pacotes da América</h1>
+
+        <div class="pacotes-cards">
+            <div class="card">
+                <div class="card-tag-top">
+                    <p>Promoção</p>
+                </div>
+                <div class="card-tag-bottom">
+                    <p>R$ 3.000,00</p>
+                </div>
+                <img class="card-image" src="imagens/miami.jfif" alt="miami">
+                <div class="card-content">
+                    <div class="card-content">
+
+                        <h1>Pacote Miami</h1>
+                    </div>
+                    <h4>Esse é o pacote perfeito para você. Comece a viver sua viagem!</h4>
+                    <ul>
+                        <li> <i data-feather="send"> </i> VOO direiro </li>
+                        <li> <i data-feather="sun"> </i> 3 diárias ou + </li>
+                        <li> <i data-feather="coffee"> </i> Cafe e almoço incluso </li>
+                        <li> <i data-feather="wifi"> </i> Wi-fi</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-tag-bottom">
+                    <p>R$ 4.500,00</p>
+                </div>
+                <img class="card-image" src="imagens/new york.jpg" alt="new york">
+                <div class="card-content">
+                    <div class="card-content">
+
+                        <h1>Pacote New York</h1>
+                    </div>
+                    <h4>A cidade que não dorme, espera por você! </h4>
+                    <ul>
+                        <li> <i data-feather="send"> </i> VOO direiro </li>
+                        <li> <i data-feather="star"> </i> Hotel Premium </li>
+                        <li> <i data-feather="sun"> </i> 5 diárias </li>
+                        <li> <i data-feather="coffee"> </i> Cafe da manhã incluso </li>
+                        <li> <i data-feather="wifi"> </i> Wi-fi</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-tag-top">
+                    <p>Promoção</p>
+                </div>
+                <div class="card-tag-bottom">
+                    <p>R$ 6.000,00</p>
+                </div>
+                <img class="card-image" src="imagens/california.jpg" alt="california">
+                <div class="card-content">
+                    <div class="card-content">
+
+                        <h1>Pacote California</h1>
+                    </div>
+                    <h4>Aproveite para surfar em um pacote neste preço!</h4>
+                    <ul>
+                        <li> <i data-feather="send"> </i> VOO direiro </li>
+                        <li> <i data-feather="sun"> </i> 7 dias </li>
+                        <li> <i data-feather="map-pin"> </i> Localização excelente</li>
+                        <li> <i data-feather="coffee"> </i> Cafe da manhã incluso </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos">
+        <h1 class="servicos-title">Por que viajar conosco ? </h1>
+        <h2 class="servicos-h2">Viaje com tranquilidade. Nós cuidaremos de tudo para você!</h2>
+        <div class="servicos-cards">
+            <div class="card">
+                <i data-feather="map"></i>
+                <div class="card-content">
+                    <h1>Tours guiados</h1>
+                    <p>Os tours são passeios que são realizados com o auxilio de um guia, que além de dar informações sobre o local, vai nos conduzir ao longo do trajeto.</p>
+                </div>
+                <button>Saiba mais</button>
+            </div>
+
+            <div class="card">
+                <i data-feather="truck"></i>
+                <div class="card-content">
+                    <h1>Aluguel de véiculos </h1>
+                    <p>Para os clientes que preferem explorar o ambiente e curtem a liberdade, oferecemos o serviço de aluguel de veiculos.</p>
+                </div>
+                <button>Saiba mais</button>
+            </div>
+            <div class="card">
+
+                <i data-feather="camera"></i>
+                <div class="card-content">
+                    <h1>Fotográfos Profissionais </h1>
+                    <p>Nossos fotogrados estão acostumados a registrar os melhores momentos da viagens para que voce aproveite a paisagem sem se preocupar.</p>
+                </div>
+                <button>Saiba mais</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="contato-card">
+            <h1>Entre em contato</h1>
+            <ul>
+                <li> <i data-feather="map-pin"> </i> Rua Alfredo Dias, 150</li>
+                <li> <i data-feather="mail"> </i> Contato@IsabelaTravel.com</li>
+                <li> <i data-feather="phone"> </i> (11) 0800-5656 </li>
+            </ul>
+        </div>
+        <div id="map"> </div>
+    </section>
+
+
+
+    <script>
+        feather.replace();
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        function initMap() {
+            // The location of Uluru
+            const uluru = {
+                lat: -25.344,
+                lng: 131.036
+            };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+        }
+    </script>
+
+    <script asyc defer src="https://maps.googleapis.com/maps/api/js?callback=initMap" async>
+    </script>
+</body>
+
+</html>
